@@ -24,7 +24,7 @@ class EntryPoint(ParserEntryPoint):
     def load(self):
         from eelsdbparser.eelsdb_parser import EELSDBParser
 
-        return EELSDBParser(**self.dict())
+        return EELSDBParser()
 
 
 eelsdb_parser_entry_point = EntryPoint(
