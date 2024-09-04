@@ -35,5 +35,5 @@ tests = [
 [tool.setuptools.packages.find]
 include = ["eelsdbparser*"]
 
-[tool.setuptools.package-data]
-eelsdbconverter = ['metadata.yaml']
+[project.entry-points.'nomad.plugin']
+eelsdbparser = "eelsdbparser:eelsdb_parser_entry_point"
