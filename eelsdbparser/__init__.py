@@ -29,6 +29,6 @@ class EntryPoint(ParserEntryPoint):
 
 eelsdb_parser_entry_point = EntryPoint(
     name='parsers/eels',
-    aliases=['parsers/eelsdbparser'],
+    aliases=['parsers/eels'],
     description='NOMAD parser for EELSDB.',
 )
